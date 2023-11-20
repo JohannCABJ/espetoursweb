@@ -5,116 +5,95 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated_: Noviembre 13, 2023
 
-Esta es nuestra Politica de protección de datos.
+## Interpretación y definiciones
 
-## Interpretation and Definitions
+### Interpretación
 
-### Interpretation
+En cumplimiento de la Ley 1581 de 2012, solicitamos su autorización para iniciar o continuar tratando los datos personales que nos proporciona. Para ello le damos a conocer las políticas para el Tratamiento de esta información que le serán aplicables, la forma de acceder a las mismas y las finalidades del tratamiento que se le pretende dar a sus datos personales.
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+1. Responsable del tratamiento de datos personales: Empresa de Servicio Especial Espetours S.A.S. con domicilio ubicado en el Centro Comercial Arkacentro Local E2-B15 Ibagué Tolima, con teléfono No. 2719501; correo electrónico: operaciones@espetours.com; teléfono celular: 316 699 7355.
 
-### Definitions
+### Definiciones
 
-For the purposes of these Terms and Conditions:
+• Autorización: Consentimiento previo, expreso e informado del Titular para llevar a cabo el Tratamiento de Datos Personales.
 
-- **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+• Aviso de Privacidad: Comunicación verbal o escrita generada por el responsable, dirigida al Titular para el Tratamiento de sus Datos Personales, mediante la cual se le informa acerca de la existencia de las Políticas de Tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las finalidades del Tratamiento que se pretende dar a los datos personales.
 
-- **Country** refers to: California, United States
+• Base de Datos: Conjunto organizado de Datos Personales que sea objeto de Tratamiento.
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AstroWind LLC, 1 Cupertino, CA 95014.
+• Clientes: Persona natural o jurídica, pública o privada con los cuales Espetours SAS tiene una elación comercial. Comprende los pasajeros, usuarios, gerentes, entre otros.
 
-- **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+• Pasajeros: Persona natural que recibe el Servicio Público de Transporte Terrestre Automotor Especial brindado por Espetours.
 
-- **Service** refers to the Website.
+• Dato Personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables. Son algunos ejemplos de datos personales los siguientes: nombre, cédula de ciudadanía, dirección, correo electrónico, número telefónico, estado civil, datos de salud, huella dactilar, salario, bienes, estados financieros, etc.
 
-- **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement is a Demo.
+• Dato sensible: Información que afecta la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos, entre otros, la captura de imagen fija o en movimiento, huellas digitales, fotografías, iris, reconocimiento de voz, facial o de palma de mano, etc.
 
-- **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
+• Encargado del Tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de Datos Personales por cuenta del responsable del Tratamiento. En los eventos en que el responsable no ejerza como Encargado de la Base de Datos, se identificará expresamente quién será el Encargado.
 
-- **Website** refers to AstroWind, accessible from [https://astrowind.vercel.app](https://astrowind.vercel.app)
+• Responsable del Tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la Base de Datos y/o el Tratamiento de los datos.
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+• Reclamo: Solicitud del Titular del dato o de las personas autorizadas por éste o por la Ley para corregir, actualizar o suprimir sus datos personales o para revocar la autorización en los casos establecidos en la Ley.
 
-## Acknowledgment
+• Términos y Condiciones: marco general en el cual se establecen las condiciones para los participantes de actividades promocionales o afines.
 
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
+• Titular: Persona natural cuyos Datos Personales sean objeto de Tratamiento.
 
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+• Transferencia: La transferencia de datos tiene lugar cuando el responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país.
 
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+• Transmisión: Tratamiento de Datos Personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del responsable.
+• Tratamiento: Cualquier operación o conjunto de operaciones sobre Datos Personales, tales como la recolección, almacenamiento, uso, circulación o supresión.
 
-You represent that you are over the age of 18\. The Company does not permit those under 18 to use the Service.
+## Principios Aplicables al Tratamiento de Datos Personales
 
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+Para el Tratamiento de los Datos Personales, Espetours aplicará los principios que se mencionan a continuación, los cuales constituyen las reglas a seguir en la recolección, manejo, uso, tratamiento, almacenamiento e intercambio, de datos personales:
 
-## Links to Other Websites
+• Legalidad: El Tratamiento de datos personales se realizará conforme a las disposiciones legales aplicables (Ley Estatutaria 1581 de 2012 y sus decretos reglamentarios).
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
+• Finalidad: Los datos personales recolectados serán utilizados para un propósito específico y explícito el cual debe ser informado al Titular o permitido por la Ley. El Titular será informado de manera clara, suficiente y previa acerca de la finalidad de la información suministrada.
 
-The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+• Libertad: La recolección de los Datos Personales solo podrá ejercerse con la autorización, previa, expresa e informada del Titular.
 
-We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
+• Veracidad o Calidad: La información sujeta al Tratamiento de Datos Personales debe ser veraz, completa, exacta, actualizada, comprobable y comprensible.
 
-## Termination
+• Transparencia: En el Tratamiento de Datos Personales se garantiza el derecho del Titular a obtener en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan.
 
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+• Acceso y circulación restringida: El Tratamiento de datos personales solo podrá realizarse por las personas autorizadas por el Titular y/o por las personas previstas en la Ley.
 
-Upon termination, Your right to use the Service will cease immediately.
+• Seguridad: Los Datos Personales sujetos a Tratamiento se manejarán adoptando todas las medidas de seguridad que sean necesarias para evitar su pérdida, adulteración, consulta, uso o acceso no autorizado o fraudulento.
 
-## Limitation of Liability
+• Confidencialidad: Todos los funcionarios que trabajen en Espetours están obligados a guardar reserva sobre la información personal a la que tengan acceso con ocasión de su trabajo en la empresa.
 
-Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
+## Tratamiento de los datos personales que obtenemos
 
-To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
+La información recopilada por ESPETOURS S.A.S. es utilizada por ésta y podrá ser compartida con sus filiales, subsidiarias, otros aliados estratégicos y terceros. Excepcionalmente podrá ser transferida o transmitida al exterior manteniendo su confidencialidad, integridad, seguridad y protección. El tratamiento se podrá efectuar mediante procedimientos automatizados, informáticos, manuales, mecánicos, digitales o electrónicos o mediante una combinación de dos o más de éstos. El tratamiento podrá incluir operaciones sobre datos personales, tales como: Recolección, almacenamiento, conservación, organización, consulta, uso, evaluación, actualización, bloqueo, circulación, reproducción, destrucción, supresión, cesión, transferencia o transmisión a terceros y en general, su procesamiento.
 
-Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.
+## Finalidad
 
-## "AS IS" and "AS AVAILABLE" Disclaimer
+En general, los datos obtenidos son tratados para los siguientes fines: Desarrollo del objeto social, cumplimiento de disposiciones legales y obligaciones contractuales, cumplimiento de órdenes y requerimientos de autoridades estatales y particulares, cumplimiento y determinación de políticas empresariales, desarrollo de actividades de bienestar o generación de beneficios, elaboración de encuestas, medición de estándares de calidad en la prestación del servicio, satisfacción, gestión y estudios de mercado, generación de información de carácter comercial, publicitario y de mercadeo, contacto para el mantenimiento de todo tipo de relaciones jurídicas, realización de actos jurídicos, facturación, análisis estadísticos, reportes contables, reportes a entidades públicas o particulares, actividades de control interno y auditorías, vigilancia, monitoreo, control y seguridad de los establecimientos, plantas, oficinas, instalaciones, bienes y de las personas que los utilizan, dar respuesta a consultas, peticiones, quejas y reclamos que sean realizadas por los Titulares y organismos de control y trasmitir los Datos Personales a las demás autoridades que en virtud de la ley aplicable deban recibir los Datos Personales.
 
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
 
-Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
+## Derechos de los titulares de datos personales:
 
-Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
+El titular de datos personales alojados en las bases de datos de ESPETOURS S.A.S. tendrá los siguientes derechos:
 
-## Governing Law
+Conocer, actualizar y rectificar sus datos personales frente a los responsables del tratamiento o encargados del tratamiento. Este derecho se podrá ejercer, entre otros, frente a datos parciales inexactos, incompletos, fraccionados que induzcan a error o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.
+Solicitar prueba de la autorización otorgada al responsable del Tratamiento salvo cuando expresamente se exceptúe como requisito para el tratamiento, de conformidad con lo previsto en el artículo 10 de la Ley 1581 de 2012.
+Ser informado por el responsable del Tratamiento o el Encargado del Tratamiento, previa solicitud, respecto del uso que le ha dado a sus datos personales.
+Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la presente ley y las demás normas que la modifiquen, adicionen o complementen.
+Revocar la autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/0 supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el Tratamiento el responsable o Encargado han incurrido en conductas contrarias a esta ley y a la Constitución.
+Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento.
 
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+## Mecanismo para el conocimiento de la Política y sus cambios:
 
-## Disputes Resolution
+Cualquier cambio sustancial en la Política de Tratamiento y Protección de datos personales será comunicado oportunamente a los titulares de los datos personales de una manera eficiente, entendida como aquella que ESPETOURS S.A.S. usa en el curso ordinario de su interacción con los Titulares, a quienes se hará saber que el texto actualizado de la Política se mantendrá publicado en el sitio web de ESPETOURS S.A.S. Además de La Política se podrá poner en conocimiento de sus destinatarios mediante mensajes de datos o por solicitud efectuada a ESPETOURS S.A.S
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+Datos Sensibles: Es facultativo del titular responder preguntas que versen sobre menores de edad y/o sobre datos que afecten la intimidad del Titular o cuyo uso indebido puede generar discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos.
 
-## For European Union (EU) Users
+ESPETOURS S.A.S. solicitará, tratará o tendrá contacto con los siguientes datos sensibles: datos biométricos, particularmente fotografías y/o videograbaciones en sus instalaciones para fines de identificación, vigilancia, monitoreo, control y seguridad de los establecimientos, plantas, oficinas, instalaciones, bienes y personas que lo utilizan.
 
-If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
+## Contáctenos
 
-## United States Legal Compliance
+Si tienes preguntas sobre nuestra política de protección de datos, puedes contactarnos en:
 
-You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
-
-## Severability and Waiver
-
-### Severability
-
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
-
-### Waiver
-
-Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.
-
-## Translation Interpretation
-
-These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
-
-## Changes to These Terms and Conditions
-
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
-
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
-
-## Contact Us
-
-If you have any questions about these Terms and Conditions, You can contact us:
-
-- By email: somecoolemail@domain.com
+operaciones@espetours.com
