@@ -50,7 +50,7 @@ export const footerData = {
         //{ text: 'AstroWind Desktop', href: '#' },
       ],
     },
-    /* {
+     {
       title: 'Support',
       links: [
         { text: 'Docs', href: '#' },
@@ -59,7 +59,7 @@ export const footerData = {
         { text: 'Skills', href: '#' },
         { text: 'Status', href: '#' },
       ],
-    }, */
+    }, 
     {
       title: 'La Empresa',
       links: [
