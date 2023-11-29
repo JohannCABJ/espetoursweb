@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -229,15 +228,16 @@ const metadata = {
     items={[
       {
         title: 'Política de transporte y seguridad vial',
-        description: "Seguridad en Cada Kilómetro: En Espetours, implementamos rigurosas políticas de transporte y seguridad vial. Desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, nos comprometemos a garantizar un viaje sin preocupaciones para cada pasajero. Tu tranquilidad es nuestra prioridad en el camino. 🚗✨ <a href='/transport'>Más información aquí</a>",
-        icon: 'flat-color-icons:template',
-        link: './transport.md'
+      description: `Seguridad en Cada Kilómetro: En Espetours, implementamos rigurosas políticas de transporte y seguridad vial. Desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, nos comprometemos a garantizar un viaje sin preocupaciones para cada pasajero. Tu tranquilidad es nuestra prioridad en el camino. 🚗✨ <a href='/transport' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/transport';">Más información aquí</a>`,
+      icon: 'flat-color-icons:template',
+      link: '/transport.md'
       },
       {
         title: 'Prevencion del consumo de sustancias piscoactivas, alcohol, drogas y tabaco',
         description:
-          "Cuidamos de tu bienestar: En Espetours, nos comprometemos firmemente con la prevención del consumo de sustancias psicoactivas, alcohol, drogas y tabaco. Nuestra prioridad es brindar un entorno seguro y saludable para todos nuestros pasajeros y colaboradores. Viajar con nosotros es disfrutar de trayectos libres de preocupaciones, donde tu seguridad y comodidad son nuestra principal meta. 🚭✨ <a href='/drugs'>Más información aquí</a>",
+          `Cuidamos de tu bienestar: En Espetours, nos comprometemos firmemente con la prevención del consumo de sustancias psicoactivas, alcohol, drogas y tabaco. Nuestra prioridad es brindar un entorno seguro y saludable para todos nuestros pasajeros y colaboradores. Viajar con nosotros es disfrutar de trayectos libres de preocupaciones, donde tu seguridad y comodidad son nuestra principal meta. 🚭✨ <a href='/transport' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/drugs';">Más información aquí</a>`,
         icon: 'flat-color-icons:gallery',
+        link: '/drugs.md'
       },
       {
         title: 'Política de proteccion de datos',

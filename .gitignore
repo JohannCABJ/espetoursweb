@@ -11,6 +11,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# .env
+BASE_URL=/dist
 
 # environment variables
 .env
