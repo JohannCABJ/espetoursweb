@@ -25,7 +25,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Conoce mas',
-        href: 'https://github.com/onwidget/astrowind',
+        href: '',
         target: '_blank',
         icon: 'tabler:download',
       },
@@ -242,8 +242,9 @@ const metadata = {
       {
         title: 'Política de proteccion de datos',
         description:
-        "Tu Privacidad, Nuestra Prioridad: En Espetours, valoramos y protegemos tus datos con la máxima seriedad. Nuestra política de protección de datos garantiza la confidencialidad y seguridad de la información que compartes con nosotros. Puedes confiar en que tu privacidad está en buenas manos mientras te acompañamos en cada tramo de tu viaje. 🌐🔒 <a href='/data'>Más información aquí</a>",
+        `Tu Privacidad, Nuestra Prioridad: En Espetours, valoramos y protegemos tus datos con la máxima seriedad. Nuestra política de protección de datos garantiza la confidencialidad y seguridad de la información que compartes con nosotros. Puedes confiar en que tu privacidad está en buenas manos mientras te acompañamos en cada tramo de tu viaje. 🌐🔒 <a href='/data' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/data';">Más información aquí</a>`,
         icon: 'flat-color-icons:approval',
+        link: '/data.md'
       },
       {
         title: 'Sistema integrado de gestión',
@@ -254,8 +255,9 @@ const metadata = {
       {
         title: 'Manual de funciones',
         description:
-        "Hoja de Ruta para el Éxito: Nuestro Manual de Funciones en Espetours es la brújula que guía a cada miembro de nuestro equipo. Detallando roles y responsabilidades, este manual es clave para mantener la armonía en nuestras operaciones. Cada página representa un compromiso con la excelencia, asegurando que cada función se desempeñe con maestría para ofrecerte la mejor experiencia de viaje. 📘🛣️ <a href='/manual'>Más información aquí</a>",
+        `Hoja de Ruta para el Éxito: Nuestro Manual de Funciones en Espetours es la brújula que guía a cada miembro de nuestro equipo. Detallando roles y responsabilidades, este manual es clave para mantener la armonía en nuestras operaciones. Cada página representa un compromiso con la excelencia, asegurando que cada función se desempeñe con maestría para ofrecerte la mejor experiencia de viaje. 📘🛣️ <a href='/manual' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/manual';">Más información aquí</a>`,
         icon: 'flat-color-icons:advertising',
+        link: '/manual.md'
       },
       {
         title: 'Registro Nacional de Turismo',
