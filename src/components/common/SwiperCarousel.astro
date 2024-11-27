@@ -1,0 +1,79 @@
+---
+// src/components/SwiperCarousel.astro
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+interface CarouselImage {
+  src: string;
+  alt: string;
+}
+
+const { images } = Astro.props;
+---
+
+<div class="swiper-container mx-auto">
+  <div class="swiper-wrapper">
+    {
+      images.map((image: CarouselImage) => (
+        <div class="swiper-slide">
+          <img src={image.src} alt={image.alt} class="w-full max-w-2xl h-[250px] object-contain mx-auto" />
+        </div>
+      ))
+    }
+  </div>
+  <div class="swiper-pagination"></div>
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+  <style>
+    .swiper-container {
+      width: 20%;
+      height: 350px;
+      padding: 10px 0;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</div>
+
+<script>
+  // Import Swiper from CDN
+  import Swiper from 'swiper';
+  import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+  // Initialize Swiper
+  document.addEventListener('DOMContentLoaded', () => {
+    try {
+      new Swiper('.swiper-container', {
+        modules: [Navigation, Pagination, Autoplay],
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        speed: 3000,
+        autoplay: {
+          delay: 0,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: false,
+        },
+        allowTouchMove: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    } catch (error) {
+      console.error('Failed to initialize Swiper:', error);
+    }
+  });
+</script>
+
+<style>
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+</style>

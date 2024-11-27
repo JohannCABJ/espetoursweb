@@ -10,6 +10,17 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import SwiperCarousel from '~/components/common/SwiperCarousel.astro';
+
+const images = [
+  { src: 'https://espetours.com/images/Alcaldiavenadillo.webp', alt: 'venadillo' },
+  { src: 'https://espetours.com/images/HMV.webp', alt: 'HMV ingenieros' },
+  { src: 'https://espetours.com/images/misericordia.webp', alt: 'Hospital La Misericordia' },
+  { src: 'https://espetours.com/images/SanVicente.webp', alt: 'Hospital San Vicente' },
+  { src: 'https://espetours.com/images/Sanluis.webp', alt: 'Alcaldia San Luis' },
+  { src: 'https://espetours.com/images/HospitalLibano.webp', alt: 'Alcaldia San Luis' },
+  { src: 'https://espetours.com/images/SanSimon.webp', alt: 'Colegio San Simon' },
+];
 
 const metadata = {
   title: 'Empresa de Servicio Especial Espetours',
@@ -41,11 +52,11 @@ const metadata = {
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
         <span class="font-semibold">Espetours:</span> Innovando en el Mundo del Transporte - Tu Socio de Confianza para
-        Servicios de Transporte Especializado en Empresas, Educación, Turismo, Usuarios del servicio de salud y Grupos Específicos de
-        Usuarios</span
+        Servicios de Transporte Especializado en Empresas, Educación, Turismo, Usuarios del servicio de salud y Grupos
+        Específicos de Usuarios</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Impulsado por Nuestra Pasión por la Tecnología en la Prestación de Transporte"
+       Impulsado por Nuestra Pasión por la Tecnología en la Prestación de Transporte"
     </Fragment>
   </Hero>
 
@@ -60,7 +71,6 @@ const metadata = {
     title="LA EMPRESA"
     subtitle="Espetours SAS, es una empresa de servicio público de transporte terrestre automotor especial, creada en el 2015 en Ibagué, con el objeto de satisfacer las necesidades de servicio de transporte a empleados, estudiantes, turistas y particulares. La empresa cuenta con una amplia experiencia en todas las áreas de este tipo de servicio, comprometida con la seguridad de nuestros usuarios, el mejoramiento continuo en los procesos y la idoneidad de su talento humano. El Ministerio de transporte a través de la Resolución No.000072 del 08 de octubre de 2018 mantiene la habilitación de la Empresa de Servicio Especial ESPETOURS de conformidad con el Decreto 1079 del 26 de mayo de 2015, modificado por el Decreto 431 de marzo de 2017"
     items={[
-      
       {
         title: 'MISION',
         description:
@@ -88,7 +98,7 @@ const metadata = {
       {
         title: 'VALORES',
         description:
-          "Nuestra principal prioridad es la seguridad de nuestros usuarios. Nos comprometemos a mantener los más altos estándares de seguridad en todos nuestros servicios. Buscamos constantemente el mejoramiento continuo en nuestros procesos y servicios para garantizar la satisfacción y confianza de nuestros clientes.Contamos con un equipo altamente capacitado y comprometido, asegurando un servicio de calidad y la atención adecuada a las necesidades de nuestros clientes.",
+          'Nuestra principal prioridad es la seguridad de nuestros usuarios. Nos comprometemos a mantener los más altos estándares de seguridad en todos nuestros servicios. Buscamos constantemente el mejoramiento continuo en nuestros procesos y servicios para garantizar la satisfacción y confianza de nuestros clientes.Contamos con un equipo altamente capacitado y comprometido, asegurando un servicio de calidad y la atención adecuada a las necesidades de nuestros clientes.',
         icon: 'tabler:arrows-right-left',
       },
       {
@@ -112,7 +122,6 @@ const metadata = {
         description:
           '"¡Atención, Estrellas del Viaje! 🌟 ¿Tienes un grupo listo para la diversión? ¡Espetours te lleva en una experiencia única! Ofrecemos un servicio especial para usuarios particulares, un viaje express desde un punto de encuentro épico hasta tu destino soñado. ¡Sube a bordo de nuestros vehículos llenos de onda con más de 30 pasajeros! Importante: ¡Este viaje no es para estudiantes, es para aventureros como tú! 🚀🎉"',
       },
-      
     ]}
     image={{
       src: 'https://espetours.com/wp-content/uploads/2023/11/comodidad.png',
@@ -120,8 +129,12 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Descubre la Comodidad en Movimiento: Nuestros Servicios en Espetours</h3>
-      Explora una forma única de viajar con Espetours, donde la comodidad y la seguridad se unen. Nuestros servicios te ofrecen una experiencia de transporte excepcional, respaldada por la calidad que nos distingue. ¡Viaja con nosotros y descubre el placer de moverte con amabilidad y confianza!" 🌟🚗
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Descubre la Comodidad en Movimiento: Nuestros Servicios en Espetours
+      </h3>
+       Explora una forma única de viajar con Espetours, donde la comodidad y la seguridad se unen. Nuestros servicios te
+      ofrecen una experiencia de transporte excepcional, respaldada por la calidad que nos distingue. ¡Viaja con
+      nosotros y descubre el placer de moverte con amabilidad y confianza!" 🌟🚗
     </Fragment>
 
     <Fragment slot="bg">
@@ -143,14 +156,12 @@ const metadata = {
         description:
           '"¡Cuidado sobre Ruedas con Espetours! 🌡️🚑 En Espetours, nos enorgullece ofrecer un servicio de transporte especial dedicado a la salud y el bienestar. Desde un punto de encuentro cuidadosamente seleccionado hasta tu destino de atención médica, nuestros vehículos están equipados para brindarte un viaje cómodo y seguro. Si eres un valioso usuario del servicio de salud, confía en nosotros para proporcionarte un transporte amable y confiable. ¡Nos preocupamos por tu bienestar en cada kilómetro del trayecto! ',
       },
-      
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
       alt: 'Blueprint Image',
     }}
   >
-   
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
@@ -172,15 +183,13 @@ const metadata = {
         description:
           '"¡Negocios en Movimiento! 🏢✨ Espetours SAS te trae una experiencia única en transporte empresarial. Imagina un viaje exprés desde la oficina hasta ese evento crucial, todo en un vehículo exclusivo. Estamos aquí para llevar tu equipo de trabajo con estilo y comodidad. ¡Sube a bordo de la ruta del éxito con Espetours! Nota importante: Este viaje está diseñado exclusivamente para el mundo empresarial, ¡donde cada kilómetro cuenta hacia el triunfo! 🚀👔"',
       },
-     
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Astronauts Image',
     }}
   >
-   
-  <Fragment slot="bg">
+    <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
@@ -193,13 +202,13 @@ const metadata = {
       {
         title: 'Paso 1: <span class="font-medium">Registro Fácil:</span>',
         description:
-          "Completa nuestro sencillo formulario de registro en línea en espertours.com/registro-vehicular. Proporciona la información básica de tu vehículo y detalles de contacto.",
+          'Completa nuestro sencillo formulario de registro en línea en espertours.com/registro-vehicular. Proporciona la información básica de tu vehículo y detalles de contacto.',
         icon: 'tabler:package',
       },
       {
         title: 'Paso 2: <span class="font-medium">Evaluación y Aprobación:</em>',
         description:
-          "Nuestro equipo revisará tu solicitud y se pondrá en contacto contigo para coordinar una evaluación de tu vehículo.Una vez aprobado, recibirás la bienvenida oficial a la familia de Espetours..",
+          'Nuestro equipo revisará tu solicitud y se pondrá en contacto contigo para coordinar una evaluación de tu vehículo.Una vez aprobado, recibirás la bienvenida oficial a la familia de Espetours..',
         icon: 'tabler:letter-case',
       },
       {
@@ -228,40 +237,38 @@ const metadata = {
     items={[
       {
         title: 'Política de transporte y seguridad vial',
-      description: `Seguridad en Cada Kilómetro: En Espetours, implementamos rigurosas políticas de transporte y seguridad vial. Desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, nos comprometemos a garantizar un viaje sin preocupaciones para cada pasajero. Tu tranquilidad es nuestra prioridad en el camino. 🚗✨ <a href='/transport' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/transport';">Más información aquí</a>`,
-      icon: 'flat-color-icons:template',
-      link: '/transport.md'
+        description: `Seguridad en Cada Kilómetro: En Espetours, implementamos rigurosas políticas de transporte y seguridad vial. Desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, nos comprometemos a garantizar un viaje sin preocupaciones para cada pasajero. Tu tranquilidad es nuestra prioridad en el camino. 🚗✨ <a href='/transport' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/transport';">Más información aquí</a>`,
+        icon: 'flat-color-icons:template',
+        link: '/transport.md',
       },
       {
         title: 'Prevencion del consumo de sustancias piscoactivas, alcohol, drogas y tabaco',
-        description:
-          `Cuidamos de tu bienestar: En Espetours, nos comprometemos firmemente con la prevención del consumo de sustancias psicoactivas, alcohol, drogas y tabaco. Nuestra prioridad es brindar un entorno seguro y saludable para todos nuestros pasajeros y colaboradores. Viajar con nosotros es disfrutar de trayectos libres de preocupaciones, donde tu seguridad y comodidad son nuestra principal meta. 🚭✨ <a href='/drugs' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/drugs';">Más información aquí</a>`,
+        description: `Cuidamos de tu bienestar: En Espetours, nos comprometemos firmemente con la prevención del consumo de sustancias psicoactivas, alcohol, drogas y tabaco. Nuestra prioridad es brindar un entorno seguro y saludable para todos nuestros pasajeros y colaboradores. Viajar con nosotros es disfrutar de trayectos libres de preocupaciones, donde tu seguridad y comodidad son nuestra principal meta. 🚭✨ <a href='/drugs' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/drugs';">Más información aquí</a>`,
         icon: 'flat-color-icons:gallery',
-        link: '/drugs.md'
+        link: '/drugs.md',
       },
       {
         title: 'Política de proteccion de datos',
-        description:
-        `Tu Privacidad, Nuestra Prioridad: En Espetours, valoramos y protegemos tus datos con la máxima seriedad. Nuestra política de protección de datos garantiza la confidencialidad y seguridad de la información que compartes con nosotros. Puedes confiar en que tu privacidad está en buenas manos mientras te acompañamos en cada tramo de tu viaje. 🌐🔒 <a href='/data' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/data';">Más información aquí</a>`,
+        description: `Tu Privacidad, Nuestra Prioridad: En Espetours, valoramos y protegemos tus datos con la máxima seriedad. Nuestra política de protección de datos garantiza la confidencialidad y seguridad de la información que compartes con nosotros. Puedes confiar en que tu privacidad está en buenas manos mientras te acompañamos en cada tramo de tu viaje. 🌐🔒 <a href='/data' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/data';">Más información aquí</a>`,
         icon: 'flat-color-icons:approval',
-        link: '/data.md'
+        link: '/data.md',
       },
       {
         title: 'Sistema integrado de gestión',
         description:
-        "Eficiencia en Acción: En Espetours, hemos implementado un sistema integrado de gestión para optimizar nuestras operaciones. Nuestro sistema asegura procesos fluidos y mejoras continuas. Te ofrecemos un viaje más eficiente y seguro a cada destino. 🔄✨",
+          'Eficiencia en Acción: En Espetours, hemos implementado un sistema integrado de gestión para optimizar nuestras operaciones. Nuestro sistema asegura procesos fluidos y mejoras continuas. Te ofrecemos un viaje más eficiente y seguro a cada destino. 🔄✨',
         icon: 'flat-color-icons:document',
       },
       {
         title: 'Manual de funciones',
-        description:
-        `Hoja de Ruta para el Éxito: Nuestro Manual de Funciones en Espetours es la brújula que guía a cada miembro de nuestro equipo. Detallando roles y responsabilidades, este manual es clave para mantener la armonía en nuestras operaciones. Cada página representa un compromiso con la excelencia, asegurando que cada función se desempeñe con maestría para ofrecerte la mejor experiencia de viaje. 📘🛣️ <a href='/manual' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/manual';">Más información aquí</a>`,
+        description: `Hoja de Ruta para el Éxito: Nuestro Manual de Funciones en Espetours es la brújula que guía a cada miembro de nuestro equipo. Detallando roles y responsabilidades, este manual es clave para mantener la armonía en nuestras operaciones. Cada página representa un compromiso con la excelencia, asegurando que cada función se desempeñe con maestría para ofrecerte la mejor experiencia de viaje. 📘🛣️ <a href='/manual' onclick="event.preventDefault(); window.location = window.location.origin + (window.location.origin.includes('localhost') ? '' : '/dist') + '/manual';">Más información aquí</a>`,
         icon: 'flat-color-icons:advertising',
-        link: '/manual.md'
+        link: '/manual.md',
       },
       {
         title: 'Registro Nacional de Turismo',
-        description: "Seguridad y Confiabilidad: En Espetours, estamos orgullosos de formar parte del Registro Nacional de Turismo. Este distintivo respalda nuestra dedicación a estándares de calidad y transparencia. Viajar con nosotros significa confiar en un servicio que cumple con las regulaciones turísticas, asegurando tu tranquilidad en cada aventura. 🏛️🔒 <a href='https://espetours.com/wp-content/uploads/2023/03/rnt2023-2024.pdf'>Más información aquí</a>",
+        description:
+          "Seguridad y Confiabilidad: En Espetours, estamos orgullosos de formar parte del Registro Nacional de Turismo. Este distintivo respalda nuestra dedicación a estándares de calidad y transparencia. Viajar con nosotros significa confiar en un servicio que cumple con las regulaciones turísticas, asegurando tu tranquilidad en cada aventura. 🏛️🔒 <a href='https://espetours.com/wp-content/uploads/2023/03/rnt2023-2024.pdf'>Más información aquí</a>",
         icon: 'flat-color-icons:currency-exchange',
       },
     ]}
@@ -290,7 +297,7 @@ const metadata = {
       {
         title: '¿Cómo puedo afiliarme como conductor a Espetours?',
         description:
-          "Para unirte como conductor afiliado, simplemente completa el formulario de registro en nuestra plataforma en línea y sigue los pasos indicados para la aprobación.",
+          'Para unirte como conductor afiliado, simplemente completa el formulario de registro en nuestra plataforma en línea y sigue los pasos indicados para la aprobación.',
       },
       {
         title: '¿Cuánto tiempo toma el proceso de aprobación como conductor?',
@@ -300,22 +307,23 @@ const metadata = {
       {
         title: '¿Cuáles son las políticas de seguridad implementadas por Espetours?',
         description:
-          "En Espetours, implementamos rigurosas políticas de seguridad, desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, garantizando la seguridad de nuestros pasajeros.",
+          'En Espetours, implementamos rigurosas políticas de seguridad, desde la selección cuidadosa de conductores hasta el mantenimiento constante de nuestros vehículos, garantizando la seguridad de nuestros pasajeros.',
       },
       {
-        title: "¿Cuántos FUEC tengo derecho como afiliado y cuál es su costo?",
+        title: '¿Cuántos FUEC tengo derecho como afiliado y cuál es su costo?',
         description:
-          "Como afiliado, tienes derecho a todos los FUEC que necesites con las credenciales asignadas para acceso a la plataforma. El valor de los FUEC es 0.",
+          'Como afiliado, tienes derecho a todos los FUEC que necesites con las credenciales asignadas para acceso a la plataforma. El valor de los FUEC es 0.',
       },
       {
-        title: '¿Cómo se manejan las evaluaciones y retroalimentaciones de los usuarios hacia los conductores afiliados?',
+        title:
+          '¿Cómo se manejan las evaluaciones y retroalimentaciones de los usuarios hacia los conductores afiliados?',
         description:
-          "Valoramos la retroalimentación de los usuarios y la utilizamos para mejorar constantemente nuestros servicios. Las evaluaciones y comentarios proporcionados por los usuarios son considerados de manera constructiva para garantizar la calidad y la seguridad en cada viaje.",
+          'Valoramos la retroalimentación de los usuarios y la utilizamos para mejorar constantemente nuestros servicios. Las evaluaciones y comentarios proporcionados por los usuarios son considerados de manera constructiva para garantizar la calidad y la seguridad en cada viaje.',
       },
       {
         title: ' ¿Cómo puedo resolver problemas técnicos o consultas relacionadas con la plataforma?',
         description:
-          "Si tienes problemas técnicos o preguntas, nuestro equipo de soporte está disponible para ayudarte. Puedes comunicarte a través de nuestra línea de soporte o utilizar la sección de ayuda en la plataforma.",
+          'Si tienes problemas técnicos o preguntas, nuestro equipo de soporte está disponible para ayudarte. Puedes comunicarte a través de nuestra línea de soporte o utilizar la sección de ayuda en la plataforma.',
       },
     ]}
   />
@@ -332,7 +340,7 @@ const metadata = {
   />
 
   <!-- CallToAction Widget *********** -->
-
+  <SwiperCarousel images={images} />
   <CallToAction
     actions={[
       {
@@ -344,12 +352,17 @@ const metadata = {
       },
     ]}
   >
+    <SwiperCarousel images={images} />
+
     <Fragment slot="title">
-      Viaja con Estilo y Seguridad: <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Solicita tu Cotización Personalizada hoy</span>
+      Viaja con Estilo y Seguridad: <br class="block sm:hidden" /><span class="sm:whitespace-nowrap"
+        >Solicita tu Cotización Personalizada hoy</span
+      >
     </Fragment>
 
     <Fragment slot="subtitle">
-      Experimenta el Viaje de tus Sueños:  <br class="hidden md:inline" />Descubre la Diferencia en Cada Kilómetro al Obtener tu Cotización Personalizada Hoy
+      Experimenta el Viaje de tus Sueños: <br class="hidden md:inline" />Descubre la Diferencia en Cada Kilómetro al
+      Obtener tu Cotización Personalizada Hoy
     </Fragment>
   </CallToAction>
 </Layout>

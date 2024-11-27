@@ -22,6 +22,8 @@
     "astro-icon": "^1.0.0-next.2",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "swipe": "^1.7.7",
+    "swiper": "^11.1.15",
     "unpic": "^3.10.0"
   },
   "devDependencies": {
@@ -32,6 +34,7 @@
     "@iconify-json/tabler": "^1.1.91",
     "@tailwindcss/typography": "^0.5.10",
     "@types/lodash.merge": "^4.6.7",
+    "@types/swiper": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "astro-compress": "^2.0.15",
