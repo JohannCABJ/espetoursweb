@@ -2,6 +2,14 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}'],
+  safelist: [
+    'bg-primary',
+    'text-primary',
+    'bg-secondary',
+    'text-secondary',
+    'bg-accent',
+    'text-accent'
+  ],
   theme: {
     extend: {
       colors: {

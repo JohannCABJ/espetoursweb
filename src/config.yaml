@@ -1,7 +1,7 @@
 site:
   name: ESPETOURS
-  site: 'https://astrowind.vercel.app'
-  base: '/'
+  site: 'https://espetours.com'
+  base: '/dist/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M

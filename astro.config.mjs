@@ -64,7 +64,7 @@ export default defineConfig({
     tasks(),
 
     compress({
-      CSS: true,
+      CSS: false, // Cambiando de true a false para evitar problemas con la optimización de CSS
       HTML: {
         removeAttributeQuotes: false,
       },
