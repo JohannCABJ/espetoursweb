@@ -194,6 +194,51 @@ const metadata = {
     </Fragment>
   </Content>
 
+  <!-- Registro Nacional de Turismo Widget **************** -->
+  
+  <Content
+    tagline="CERTIFICACIÓN OFICIAL"
+    title="Registro Nacional de Turismo"
+    items={[
+      {
+        title: 'Certificación Vigente',
+        description:
+          '🏆 Nos enorgullece compartir nuestro Registro Nacional de Turismo actualizado hasta 2026, garantía de nuestro compromiso con la calidad y el cumplimiento de todas las normativas del sector turístico en Colombia.',
+      },
+      {
+        title: 'Seguridad y Confianza',
+        description:
+          '🔒 Este registro oficial es tu garantía de que viajas con una empresa legalmente constituida y autorizada para ofrecer servicios de transporte turístico especial.',
+      },
+    ]}
+    image={{
+      src: 'https://espetours.com/images/rnt-preview.jpg',
+      alt: 'Registro Nacional de Turismo Espetours',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Respaldamos Nuestra Calidad con Certificaciones Oficiales
+      </h3>
+      <p class="mb-4">
+        En Espetours, operamos bajo todos los estándares legales requeridos para el transporte turístico en Colombia. Nuestro Registro Nacional de Turismo nos acredita como prestadores de servicios turísticos confiables y seguros.
+      </p>
+      <div class="mt-4">
+        <a href="https://espetours.com/rnt/4.0.RNT20260331.pdf" target="_blank" class="btn btn-primary">
+          Descargar RNT Completo
+        </a>
+      </div>
+      <div class="mt-4 text-sm">
+        <p>Certificación vigente hasta: Marzo 31, 2026</p>
+        <p>Número de registro: 4.0.RNT20260331</p>
+      </div>
+    </Fragment>
+    
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
   <!-- Steps Widget ****************** -->
 
   <Steps
@@ -346,7 +391,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Contáctanos',
-        href: '/contact',
+        href: 'mailto:operaciones@espetours.com',
         target: '_blank',
         icon: 'tabler:download',
       },

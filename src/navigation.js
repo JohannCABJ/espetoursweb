@@ -4,7 +4,7 @@ export const headerData = {
   actions: [
     {
       text: 'Contactenos',
-      href: '/contact',
+      href: 'mailto:operaciones@espetours.com',
       target: '_blank',
     },
     {
