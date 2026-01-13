@@ -8,13 +8,13 @@ export const headerData = {
       target: '_blank',
     },
     {
-      text: 'WhatsApp Operativo',
-      href: 'https://wa.me/+573168251873',
+      text: 'WhatsApp Operativo Usuarios Nueva EPS',
+      href: 'https://wa.me/+573174931834',
       target: '_blank',
     },
     {
       text: 'WhatsApp Cotizaciones',
-      href: 'https://wa.me/+573168251873',
+      href: 'https://wa.me/+573202354442',
       target: '_blank',
     },
     {
